@@ -1,0 +1,8 @@
+{
+	"options": {
+		"tsOnly": false,
+		"tsout": "generated/ts",
+		"targetVersion":"ES5"
+	},
+  	"adapters": [ "HelloWorldAdapter","org.jsweet.transpiler.extension.BigDecimalAdapter" ]
+}
