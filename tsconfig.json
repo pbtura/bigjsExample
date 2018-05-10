@@ -6,8 +6,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "sourceMap": true,
-    "rootDir": "/Users/pbuchheit/Documents/workspace/optics/bigjsExample/target/ts",
-    "outDir": "/Users/pbuchheit/Documents/workspace/optics/bigjsExample/target/js"
+    "rootDir": "target/ts",
+    "outDir": "target/js"
 	},
   "include":[
     "target/ts/**/*",

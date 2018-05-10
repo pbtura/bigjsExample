@@ -12,7 +12,12 @@ public class Foo
 
 	public Foo()
 	{
-		// TODO Auto-generated constructor stub
+	}
+
+	public Foo(String hello, Date bDay)
+	{
+		this.greeting = hello;
+		this.bDay = bDay;
 	}
 
 	public Foo(Bar bar, String greeting, Date bDay)
