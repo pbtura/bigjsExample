@@ -9,9 +9,9 @@ import org.jsweet.transpiler.extension.PrinterAdapter;
 
 import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
 
-public class TuraJSweetFactory extends JSweetFactory
+public class CustomJSweetFactory extends JSweetFactory
 {
-	public TuraJSweetFactory()
+	public CustomJSweetFactory()
 	{
 		super();
 	}

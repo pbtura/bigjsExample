@@ -78,8 +78,8 @@
 					<bundle>false</bundle>
 					<candiesJsOut>target/candies</candiesJsOut>
 					<workingDir>.jsweet</workingDir>
-					<tsOnly>true</tsOnly>
-					<factoryClassName>util.TuraJSweetFactory</factoryClassName>
+					<tsOnly>false</tsOnly>
+					<factoryClassName>util.CustomJSweetFactory</factoryClassName>
 					<excludes>
 						<exclude>**/util/**</exclude>
 					</excludes>
@@ -95,18 +95,7 @@
 				</executions>
 			</plugin>
 			
-<!-- 			<plugin> -->
-<!-- 				<artifactId>maven-compiler-plugin</artifactId> -->
-<!-- 				<version>3.1</version> -->
-<!-- 				<configuration> -->
-<!-- 					<source>1.8</source> -->
-<!-- 					<target>1.8</target> -->
-<!-- 					<fork>true</fork> -->
-<!-- 					<excludes> -->
-<!-- 						<exclude>**/util/**</exclude> -->
-<!-- 					</excludes> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
+
 		</plugins>
 		<pluginManagement>
 			<plugins>
